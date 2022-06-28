@@ -2,6 +2,9 @@
 ## Overview
 - The Lending Market is a Compound fork with modified governance. 
 
+## Stableswap contracts are contained in /contracts/Stableswap
+The Stableswap code was added to this repo to make deployment and integration testing easier.
+
 # General Functionality of Lending Markets in Compound
 
 [https://compound.finance/docs/ctokens](https://compound.finance/docs/ctokens) (Please refer here for detailed documentation regarding the functionality of the lending market)
