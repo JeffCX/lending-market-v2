@@ -2,6 +2,8 @@
 ## Overview
 - The Lending Market is a Compound fork with modified governance. 
 
+# Stableswap is contained in contracts/Stableswap
+
 # General Functionality of Lending Markets in Compound
 
 [https://compound.finance/docs/ctokens](https://compound.finance/docs/ctokens) (Please refer here for detailed documentation regarding the functionality of the lending market)
@@ -15,7 +17,7 @@ In entirety, the lending market is composed of
 - Comptroller - Controls the general accounting required for basic functionality within CToken markets (accountLiquidities, supportedMarkets, etc. ), **compound docs**: ([https://compound.finance/docs/comptroller](https://compound.finance/docs/comptroller))
 - PriceOracle - The Comptroller contains a reference to a user-specified price oracle, in our case this oracle the stableswap oracle.
 
-## Modifications to Compound
+# Modifications to Compound
 - Removed Comp Token.
 - Removed Comp token references in GovernorBravo and Comptroller.
 - Dripping of Wrapped-Canto (ERC-20 version of native token Canto) to Suppliers of Lending. Market instead of Comp token.
